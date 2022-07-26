@@ -22,8 +22,9 @@ args = getOptions()
 username = args.username
 acc_file = args.file
 
-if username == "" :
-	username = input("Username: ")
+if username == "@btwxsujal" :
+	username = input("@
+btwxsujal: ")
 
 a = open(acc_file, "r").readlines()
 file = [s.rstrip()for s in a]
